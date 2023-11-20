@@ -107,13 +107,13 @@ class TestCelle {
 	System.out.println("** Test Celle **");
 
 	// Kall paa de metodene du vil teste ved aa fjerne // under:
-	// testCelle();
-	// testSettDoedLevende();
-	// testErLevende();
-	// testHentStatusTegn();
-	// testLeggTilNabo();
-	// testTellLevendeNaboer();
-	// testOppdaterStatus();
+	testCelle();
+	testSettDoedLevende();
+	testErLevende();
+	testHentStatusTegn();
+	testLeggTilNabo();
+	testTellLevendeNaboer();
+	testOppdaterStatus();
 	
 	System.out.println();
     }
