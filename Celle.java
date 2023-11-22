@@ -1,8 +1,8 @@
 public class Celle{
     boolean levende; 
     Celle[] naboer;
-    int antNaboer;
-    int antLevendeNaboer;
+    public int antNaboer;
+    public int antLevendeNaboer;
 
     public Celle(){
         levende = false;
@@ -29,8 +29,11 @@ public class Celle{
     }
 
     public void leggTilNabo(Celle nabo){
-        naboer[antNaboer] = nabo;
-        antNaboer++;
+        if (nabo != null){
+            naboer[antNaboer] = nabo;
+            antNaboer++;
+        }
+        
     }
 
     public void tellLevendeNaboer(){
