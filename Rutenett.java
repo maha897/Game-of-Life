@@ -8,6 +8,7 @@ public class Rutenett{
         this.antKolonner = antKolonner;
         rutene = new Celle[antRader][antKolonner];
         fyllMedTilfeldigeCeller();
+        kobleAlleCeller();
     }
     
     private void lagCelle(int rad, int kolonne){
